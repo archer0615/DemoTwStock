@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TwStock.Models\TwStock.Models.csproj" />
     <ProjectReference Include="..\TwStock.Service\TwStock.Service.csproj" />
   </ItemGroup>

@@ -34,7 +34,7 @@ namespace TwStock.Controllers
         [HttpGet]
         [Route("StockNo/{stockNo}/Start/{startDate}/End/{endDate}")]
         public async Task<TwStockOfYieldRateByNo_DateRangeRs> GetRangeOfYield(
-            string stockNo="2002", string startDate="20201023", string endDate="20201030")
+            string stockNo = "2002", string startDate = "20201023", string endDate = "20201030")
         {
             if (string.IsNullOrWhiteSpace(stockNo) ||
                 string.IsNullOrWhiteSpace(startDate) ||
